@@ -1,8 +1,8 @@
 git status -> situazione (cosa modificato, cancellato,.. rispetto ultima versione scaricata)
 git pull -> scarica ultima versione 
-git reset --soft "HEAD^" -> se ho fatto un commit che non intendevo fare (ancora da pushare), mantiene comunque la situazione
-git reset --hard "HEAD^" -> se ho fatto un commit che non intendevo fare (ancora da pushare) o comunque voglio tornare all'ultima versione scaricata
-git push -> metti versione locale attuale in remoto
-git commit -a -m "testo" -> fai un commit dei cambiamenti (versione locale piu avanti di un passo)
 git add * --> aggiungi tutti i file della cartella in uno stato "pronto per il commit"
 git checkout --* -> togli tutti i file dallo stato "pronto per il commit"
+git commit -a -m "testo" -> fai un commit dei cambiamenti (versione locale piu avanti di un passo)
+git reset --soft "HEAD^" -> se ho fatto un commit che non intendevo fare (ancora da pushare), mantiene comunque la situazione in locale
+git reset --hard "HEAD^" -> se ho fatto un commit che non intendevo fare (ancora da pushare) o comunque voglio tornare all'ultima versione scaricata
+git push -> metti versione locale attuale in remoto
